@@ -1,0 +1,224 @@
+#header {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #C2D9FF; /* Add your color here, or remove this line if not needed */
+    /* Additional background color, if needed: background-color: #F1EAFF; */
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+h1,h2 {
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+p.lead {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#dusan {
+    border-radius: 5%;
+}
+
+#hero {
+    background-color: #F1EAFF;
+    background: linear-gradient(to right, #FFFFFF, #F1EAFF, #FFFFFF);
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#features {
+    background-color: #C2D9FF;
+    background: linear-gradient(to left, #FFFFFF, #C2D9FF, #FFFFFF);
+}
+
+#background {
+    background-color: #F1EAFF;
+    background: linear-gradient(to right, #FFFFFF, #F1EAFF, #FFFFFF);
+}
+
+#trump {
+    border-radius: 5%;
+}
+
+.btn-primary:hover {
+ background-color: #333333;
+}
+
+#projecc {
+    background-color: #C2D9FF;
+    background: linear-gradient(to left, #FFFFFF, #C2D9FF, #FFFFFF);
+    text-align: center;
+    color: black; 
+}
+
+
+#projecc #projecttitle {
+    margin-bottom: 20px;
+}
+
+#projecttitle {
+    margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#projecc .container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    flex: 1;
+    text-align: center;
+}
+
+.col-4 img {
+    width: 100%;
+    height: 300px;
+    border: 5px solid #6a8dbe;
+    border-radius: 8px; 
+}
+
+.col-4:nth-child(3) img {
+    width: 130%; /* Adjust the width to your preference */
+}
+
+@media (max-width: 767px) {
+    .col-4 {
+        flex: 0 0 100%; /* Full width on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .col-4:nth-child(3) img {
+        width: 100%; /* Adjust the width to your preference */
+    }
+}
+
+#projecc p {
+    font-weight: bold; /* Make all paragraphs bold */
+}
+
+#about {
+    background-color: #F1EAFF;
+    background: linear-gradient(to right, #FFFFFF, #F1EAFF, #FFFFFF);
+    background: linear-gradient(to bottom, #FFFFFF, #F1EAFF, #FFFFFF);
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 767px) {
+    .col-lg-6 {
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .gym {
+        width: 100%; /* Make the image fill its container */
+        max-width: 450px; /* Set a maximum width to avoid stretching on larger screens */
+        height: auto; /* Maintain the image's aspect ratio */
+      }
+
+.display-5 {
+    margin-bottom: 20px;
+  }
+}
+
+#fashion {
+    background-color: #C2D9FF;
+    background: linear-gradient(to right, #FFFFFF, #F1EAFF, #FFFFFF);
+}
+
+#fashion > .container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+}
+
+.shoes {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-column {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+#fashion {
+    padding-top: 100px;
+    background: linear-gradient(to top, #FFFFFF, #F1EAFF, #FFFFFF);
+}
+
+.left-column h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+@media (max-width:600px) {
+  #fashion > .container {
+grid-template-columns: 1fr;
+    }
+}
+
+.editor {
+    border-radius: 10px;
+}
+
+#yt {
+    background-color: red;
+}
+
+#yt:hover {
+    background-color: #333333;
+   } 
+
+   @media (max-width: 767px) {
+    .gym {
+      margin-left: 0; /* Reset left margin */
+      margin-right: 0; /* Reset right margin */
+      margin-top: 15px; /* Add top margin for small screens */
+      border-radius: 10px;
+    }
+  }
+
+  .gym {
+    border-radius: 10px;
+  }
+
+  #footer {
+    background-color: #C2D9FF;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  #footer {
+    margin-bottom: 0;
+  }
